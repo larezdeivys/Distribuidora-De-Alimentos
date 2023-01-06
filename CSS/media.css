@@ -1,0 +1,479 @@
+@media (min-width: 570px) {
+	.product-minimal .showcase-container{
+		min-width: calc(50% - 15px);
+	}
+	.product-minimal .chowcase-img{
+		max-width: 450px;
+		margin: auto;
+	}
+}
+@media (min-width: 780px) {
+	.product-minimal{
+		display: flex;
+		flex-flow: wrap;
+		justify-content: center;
+		gap: 20px;
+	}
+	.product-minimal .product-showcase{
+		max-width: calc(50% - 10px);
+		width: calc(50% - 10px);
+	}
+	.product-minimal .showcase-container{
+		min-width: calc(100% - 10px);
+	}
+}
+@media screen and (min-width: 820px){
+	/*NAVBAR*/
+	.MenuDesplegable{
+		width: 70%;
+	}
+	.MenuDesplegable button{
+		display: none;
+	}
+	.sombra{
+		width: 100%;
+		min-height: 40px;
+		display: block;
+		position: initial;
+		background-color: transparent;
+	}
+	.sombra ul{
+		width: 100%;
+		position: initial;
+		animation: none;
+		min-height: 40px;
+	}
+	.sombra ul li{
+		padding: 0;
+		display: inline-block;
+		margin-top: .5rem;
+	}
+	.sombra img{
+		display: none;
+	}
+	.sombra .enlace{
+		font-size: .7rem;
+		padding: 0 .3rem;
+	}
+	.enlace:hover{
+		color: gray;
+		transform: scale(1.1);
+	}
+	/*SECCION DE INFORMACION*/
+	/*quienes somos*/
+	.somos .h1{
+		font-size: 2rem;
+	}
+	.somos .p{
+		font-size: .8rem;
+	}
+	/*SLIDER DE INFORMACION*/
+	.info .p{
+		font-size: .82rem;
+	}
+	.info .img{
+		display: none;
+	}
+	.muñeco{
+		display: flex;
+		width: 4rem;
+	}
+	/*UBICACION*/
+	.sedes .mapas{
+		width: 80%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+	}
+	.mapas .img1{
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 2.5rem;
+		display: block;
+	}
+	.mapas .img2{
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 2.5rem;
+		display: block;
+	}
+	.mapas .p{
+		margin: auto;
+	}
+	/*EXCLUSIVIDAD*/
+	#Exclusividad{
+		width: 100%;
+		height: 3.5rem;
+	}
+	.h3exclu{
+		font-size: 2rem;
+	}
+	.pro{
+		width: 80%;
+	}
+	.pro img:nth-child(3){
+		border: 2px solid maroon;
+	}
+	/*CLIENTES*/
+	.client .h2{
+		font-size: 2rem;
+	}
+	.client .p{
+		font-size: .83rem;
+	}
+}
+@media screen and (min-width: 1024px){
+	/*NAVBAR*/
+	.sombra .enlace{
+		font-size: .8rem;
+		padding: 0 .3rem;
+	}
+	/*btn SLIDER*/
+	.slider--btn{
+		width: 2.2rem;
+		height: 2.2rem;
+	}
+	.btn--izquierdo{
+		left: 6rem;
+	}
+	.btn--derecho{
+		right: 6rem;
+	}
+	.muñeco{
+		width: 8rem;
+	}
+	/*ubicacion*/
+	.icono img{
+		width: 8rem;
+		padding-bottom: 2rem;
+	}
+	.mapas .img{
+		height: 12rem;
+	}
+	/*SLIDER DE PRODUCTOS*/
+	.product-minimal{
+		width: 80%;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.product-minimal .product-showcase{
+		max-width: calc(25% - 15px);
+		width: clac(25% - 15px);
+		flex-grow: 1;
+	}
+	.product-minimal .showcase-wrapper{
+		gap: 10px;
+	}
+	.product-minimal .showcase-container{
+		padding: 8px;
+	}
+	.showcase .chowcase-content .chowcase-title{
+		width: 100%;
+		font-size: .6rem;
+	}
+	.showcase .chowcase-content .chowcase-category{
+		width: 100%;
+		font-size: .5rem;
+	}
+
+	/*FOOTER*/
+	.footer{
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		padding-bottom: 2.5rem;
+	}
+	.contacto .h3{
+		padding-top: 1.8rem;
+	}
+	.horario .h3{
+		padding-top: .3rem;
+		padding-bottom: 1rem;
+	}
+	.contacto ul{
+		width: 100%;
+	}
+	.minilogo{
+		padding-top: .3rem;
+	}
+}
+@media screen and (min-width: 1200px){
+	/*NAVBAR*/
+	.sombra .enlace{
+		font-size: .8rem;
+		padding: 0 1rem;
+	}
+	/*ubicacion*/
+	.mapas .img{
+		height: 15rem;
+	}
+	/*btn SLIDER*/
+	.btn--izquierdo{
+		left: 8rem;
+	}
+	.btn--derecho{
+		right: 8rem;
+	}
+}
+@media screen and (min-width:  1440px){
+	/*navbar*/
+	.sombra .enlace{
+		font-size: .9rem;
+	}
+	.sombra ul li{
+		margin-top: .6rem;
+	}
+	/*quienes somos*/
+	.somos .h1{
+		font-size: 2.3rem;
+	}
+	.somos .p{
+		font-size: 1rem;
+	}
+	/*SLIDER DE INFORMACION*/
+	.h3nav ul li{
+		padding: .3rem 1rem;
+		font-size: .9rem;
+	}
+	.info .h1{
+		font-size: 2.1rem;
+	}
+	.info .p{
+		font-size: 1rem;
+	}
+	.info .img{
+		display: none;
+	}
+	.slider--btn{
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+	/*CLIENTES*/
+	.client .h2{
+		font-size: 2.5rem;
+	}
+	.client .p{
+		font-size: 1rem;
+	}
+	/*FOOTER*/
+	.horario .h3{
+		font-size: 1.8rem;
+	}
+	.horario .p{
+		font-size: 1rem;
+	}
+	.contacto .h3{
+		font-size: 1.8rem;
+	}
+	.contacto a{
+		font-size: 1rem;
+	}
+}
+@media screen and (min-width: 1640px){
+	/*btn SLIDER*/
+	.btn--izquierdo{
+		left: 10rem;
+	}
+	.btn--derecho{
+		right: 10rem;
+	}
+	.minilogo img{
+		width: 11rem;
+	}
+}
+@media screen and (min-width: 1940px){
+	/*navbar*/
+	.sombra .enlace{
+		font-size: 1rem;
+	}
+	/*quienes somos*/
+	.somos .h1{
+		font-size: 2.5rem;
+	}
+	.somos .p{
+		font-size: 1.1rem;
+	}
+	/*SLIDER DE INFORMACION*/
+	.h3nav ul li{
+		padding: .3rem 1.2rem;
+		font-size: 1rem;
+	}
+	.info .h1{
+		font-size: 2.3rem;
+	}
+	.info .p{
+		font-size: 1.1rem;
+	}
+	.muñeco{
+		width: 10rem;
+	}
+	.slider--btn{
+		width: 3rem;
+		height: 3rem;
+	}
+	.btn--izquierdo{
+		left: 12rem;
+	}
+	.btn--derecho{
+		right: 12rem;
+	}
+	/*ubicacion*/
+	.mapas .img{
+		height: 20rem;
+	}
+	.mapas .h2{
+		font-size: 2rem;
+	}
+	.mapas .p{
+		font-size: 1.2rem;
+	}
+	/*CLIENTES*/
+	.client .h2{
+		padding-top: 5rem;
+		font-size: 2.5rem;
+	}
+	.client .p{
+		font-size: 1.2rem;
+	}
+	/*FOOTER*/
+	.horario .h3{
+		font-size: 1.9rem;
+	}
+	.horario .p{
+		font-size: 1.1rem;
+	}
+	.contacto .h3{
+		font-size: 1.9rem;
+	}
+	.contacto a{
+		font-size: 1.1rem;
+	}
+	.contacto ul{
+		width: 90%;
+	}
+	.contacto .img{
+		width: 2rem;
+		transform: translateY(.4rem);
+	}
+	.copy .h4{
+		font-size: 1rem;
+	}
+}
+@media screen and (min-width: 2560px){
+	/*navbar*/
+	.nav img{
+		width: 12rem;
+		margin-left: 8%;
+	}
+	.sombra .enlace{
+		font-size: 1.3rem;
+		padding: 0 1.5rem;
+	}
+	/*quienes somos*/
+	.somos .h1{
+		font-size: 2.8rem;
+	}
+	.somos .p{
+		font-size: 1.5rem;
+	}
+	/*SLIDER DE INFORMACION*/
+	.h3nav ul li{
+		padding: .3rem 1.5rem;
+		font-size: 1.4rem;
+	}
+	.info .h1{
+		font-size: 2.5rem;
+	}
+	.info .p{
+		font-size: 1.4rem;
+	}
+	.muñeco{
+		display: flex;
+	}
+	.slider--btn{
+		width: 3.5rem;
+		height: 3.5rem;
+	}
+	.btn--izquierdo{
+		left: 15rem;
+	}
+	.btn--derecho{
+		right: 15rem;
+	}
+	/*ubicacion*/
+	.mapas .img{
+		height: 25rem;
+	}
+	.mapas .h2{
+		font-size: 2.2rem;
+	}
+	.mapas .p{
+		font-size: 1.4rem;
+	}
+	/*EXCLUSIVOS*/
+	.h3exclu{
+		font-size: 3rem;
+	}
+	.pro{
+		width: 50%;
+	}
+	.pro img{;
+		max-width: 15rem;
+	}
+	/*SLIDER DE PRODUCTOS*/
+	.h3pro{
+		font-size: 3rem;
+	}
+	.product-minimal .title{
+		font-size: 2rem;
+	}
+	.showcase .chowcase-content .chowcase-title{
+		width: 100%;
+		font-size: 1.5rem;
+	}
+	.showcase .chowcase-content .chowcase-category{
+		width: 100%;
+		font-size: 1.4rem;
+	}
+	.showcase-container .showcase .showcase-img-box img{
+		width: 10rem;
+	}
+	/*CLIENTES*/
+	.client .h2{
+		padding-top: 5rem;
+		font-size: 2.8rem;
+	}
+	.client .p{
+		font-size: 1.4rem;
+	}
+	/*FOOTER*/
+	.horario{
+		width: 100%;
+		max-width: 50%;
+	}
+	.horario .h3{
+		font-size: 2rem;
+		padding-top: .7rem;
+	}
+	.horario .p{
+		font-size: 1.4rem;
+	}
+	.contacto .h3{
+		padding-top: 5rem;
+		font-size: 2rem;
+	}
+	.contacto a{
+		font-size: 1.4rem;
+	}
+	.contacto ul{
+		width: 150%;
+	}
+	.contacto .img{
+		width: 2.5rem;
+		transform: translateY(.5rem);
+	}
+	.copy .h4{
+		font-size: 1.2rem;
+	}
+}
