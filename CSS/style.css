@@ -47,7 +47,7 @@ body{
 	position: fixed;
 	top: 0;
 	left: 0;
-	background -color: rgba(0, 0, 0, .4);
+	background-color: rgba(0, 0, 0, .4);
 	text-align: left;
 	display: none;
 }
@@ -126,7 +126,7 @@ body{
 /*quienes somos*/
 .quienes-somos{
 	width: 100%;
-	height: auto;
+	height: 100vh;
 	background-image: url(../IMG/img12.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -134,7 +134,7 @@ body{
 }
 .somos{
 	width: 100%;
-	height: auto;
+	height: 100vh;
 	color: white;
 	background-color: rgba(0, 0, 0, .3);
 
@@ -151,13 +151,12 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-.somos .h1{
-	padding-top: 6rem;
-	padding-bottom: 1rem;
+.somos .pa .h1{
+	padding-top: 8rem;
 
-	width: 90%;
-	text-align: center;
-	font-size: 1.5rem;
+	width: 80%;
+	text-align: left;
+	font-size: 1.8rem;
 }
 .somos .p{
 	width: 80%;
@@ -411,7 +410,7 @@ body{
 	border-radius: 50%;
 	transition: .2s;
 }
-.pro img:hover{;
+.pro img:hover{
 	transform: scale(1.05);
 	cursor: pointer;
 }
@@ -491,6 +490,7 @@ body{
 .cliente{
 	position: relative;
 	width: 100%;
+	padding: 5rem 0;
 	background-image: url(../IMG/img9.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
